@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background: rgb(247, 255, 254);
+    background: radial-gradient(
+        circle,
+        rgba(247, 255, 254, 1) 60%,
+        rgba(226, 244, 255, 1) 100%
+    );
+}
+
+#calendar {
+    margin: 0 auto;
+    border-collapse: collapse;
+    -webkit-box-shadow: -1px 4px 11px 0px rgba(34, 60, 80, 0.16);
+    -moz-box-shadow: -1px 4px 11px 0px rgba(34, 60, 80, 0.16);
+    box-shadow: -1px 4px 11px 0px rgba(34, 60, 80, 0.16);
+}
+
+td,
+th {
+    border: 1px solid olive;
+    padding: 1.5em;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    background-color: #fff;
+}
+
+.buttons {
+    margin: 0 auto;
+    width: max-content;
+}
+
+.btn-left,
+.btn-right {
+    padding: 0.5em 2em;
+    margin: 1rem 0.5rem;
+}
+
+.selected-dates {
+    margin: 2rem auto;
+    width: min(100%, 450px);
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+.active {
+    background-color: rgb(205, 235, 249);
+}
+
+.active-date {
+    background-color: rgb(255, 246, 223);
+    color: rgb(34, 60, 80);
+    font-weight: 700;
+}
+
+.not-current-month {
+    pointer-events: none;
+    color: rgba(0, 0, 0, 0.25);
+    cursor: none;
+}
