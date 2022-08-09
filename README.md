@@ -33,7 +33,7 @@
    • Отображение дат следующего и предыдущего месяцев
 ```
 
-![image](calendar_view.jpg)
+![image](calendar__view.jpg)
 
 ---
 © [Dmitry Kolotilshikov](https://github.com/DmitryKolotilshikov)
