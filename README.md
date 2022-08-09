@@ -1,4 +1,4 @@
-# Calendar application
+# Calendar application (pure JavaScript)
 [RUN APPLICATION](https://dmitrykolotilshikov.github.io/calendar)
 
 
@@ -17,7 +17,7 @@
    • Displaying the dates of the next and previous months
 ```
 
-## Calendar приложение
+## Приложение Календарь
 
 ```
     Приложение написано на (HTML | CSS | JavaScript)
