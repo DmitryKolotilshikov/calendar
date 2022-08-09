@@ -11,7 +11,7 @@
 ```
   Functionality:
    • Switching months
-   • Smart date selection
+   • Smart and fast date selection
    • Highlight today's date
    • Display active month and year
    • Displaying the dates of the next and previous months
@@ -27,7 +27,7 @@
 ```
   Функциональность:
    • Переключение месяцев
-   • Умное выделение дат
+   • Умное и быстрое выделение дат
    • Подсветка сегодняшней даты
    • Отображение активного месяца и года
    • Отображение дат следующего и предыдущего месяцев
